@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  /* background-color: gray; */
+}
+section{
+  max-width: 1000px;
+  margin: 30px auto 0;
+  height: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #000;/*黒にする*/
+  opacity: 1;/*デフォルトは.75が指定されている*/
+}
